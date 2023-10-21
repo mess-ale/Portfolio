@@ -1,0 +1,82 @@
+{
+    "header": {
+      "home": "Home",
+      "project": "Project",
+      "about": "About",
+      "contact": "Contact",
+      "eng": "Engl",
+      "amh": "አማር"
+    },
+    "footer": {
+        "footer1": "AASTU, Addis Ababa Ethiopia",
+        "footer2": "+251-98-586-6889",
+        "footer3": "alemnehmeseret@gmail.com",
+        "footer4": "About Me",
+        "footer5": "This is me Meseret Alemnew. student at AASTU. I enjoy discusing new",
+        "footer6": "projects and design challenges."
+    },
+    "about": {
+        "abouthead": "About",
+        "aboutbody1": "I'm a friendly Front-End Developer.",
+        "aboutsummary1": "Summary",
+        "aboutsummary2": "I am enthusiastic about learning and adapting new skills, driven by my passion for utilizing technology to solve complex problems. With extensive experience in software development, and systems engineering, I thrive in creatively approaching challenges. I am highly interested in working collaboratively and have excellent communication skills. My commitment is to use my skills to create innovative solutions that exceed expectations and have a positive impact for the society."
+    },
+    "project": {
+        "project1": "PROJECTS",
+        "project2": "Some of my recent works",
+        "projectdescri1": "description",
+        "projectname1": "Socila Midea Website",
+        "projectname2": "Employee Management database",
+        "projectname3": "Simpl Working(React) Calculator",
+        "projectname4": "Mapping tecknique",
+        "projectname5": "IoT Based Smart Seeding",
+        "projectname6": "portfolios website Links",
+        "projectlink1": "Github Links",
+        "projectview": "VIEW",
+        "projectdescribody1": "This front-end social media website is a fully responsive web application that allows users to create profiles, connect with friends, share posts, and like and comment on other users' posts. The website was built using React, Redux, and Tailwind CSS.",
+        "projectdescribodys1": "This internship project was a great opportunity to learn about and apply front-end development skills. I gained experience with React, Redux, Tailwind CSS, and other front-end technologies. I also learned how to design and implement a responsive web application.",
+        "projectdescribody2": "This Python console employee management project is a simple but effective command-line application that allows businesses to track and manage their employee data. The project uses a simple database to store the employee data, and it provides a number of commands for adding, editing, deleting, and viewing employee records.",
+        "projectdescribodys2": "The project was built using Python and the MySQL Connector/Python library.",
+        "projectdescribody3": "This simple React calculator website is a fully responsive web application that allows users to perform basic arithmetic operations, including addition, subtraction, multiplication, and division. The website was built using React, CSS, and HTML.",
+        "projectdescribodys3": "The website features a clean and modern user interface, with a simple and straightforward layout. The website is also fully responsive, so it can be used on all devices, including desktops, laptops, tablets, and smartphones.",
+        "projectdescribody4": "This Java project implements a cache simulator that can simulate the performance of direct mapping, associative mapping, and set associative mapping techniques. The simulator allows the user to specify the cache size, block size, and mapping technique. The simulator then generates a random sequence of memory accesses and simulates the performance of the cache.",
+        "projectdescribodys4": "The project uses a simple Java class to represent the cache. The cache class has a constructor that takes the cache size and block size as input. The cache class also has methods to read and write data to the cache.",
+        "projectdescribody5": "This IoT-based smart seeding project is a system that uses sensors and actuators to automate the seeding process. The system consists of a microcontroller, a variety of sensors, and a number of actuators.",
+        "projectdescribodys5": "The microcontroller is the central processing unit of the system. It is responsible for reading the sensor data, controlling the actuators, and communicating with the cloud."
+
+    },
+    "contact": {
+        "contacthead": "Contact",
+        "contactbody": "Lets have a chat",
+        "contactbodydet": "I'm always happy to hear from potential clients and collaborators. If you have any questions about my work, or would like to discuss a project, please feel free to reach out using the form below. I'll do my best to respond to your message as soon as possible.",
+        "connectname": "Your name",
+        "connectemail": "Email",
+        "connectmessage": "Messages",
+        "connectplaceholder1": "enter your name...",
+        "connectplaceholder2": "enter your email...",
+        "connectplaceholder3": "write your message...",
+        "connectsubmit": "Submit"
+    },
+    "home": {
+        "about": "About Me",
+        "aboutbody1": "I am a computer engineer with a passion for building innovative software solutions. I have experience in a variety of programming languages and technologies, including Python, Java, C++, and JavaScript. I am also proficient in web development, and cloud computing.",
+        "aboutbody2": "I am a highly motivated and results-oriented individual with a strong work ethic. I am also a team player and I am always willing to go the extra mile to help my team succeed.",
+        "aboutbody3": "In my free time, I enjoy learning new technologies and working on personal projects. I am also an avid reader and I enjoy spending time with my family and friends.",
+        "skillbody1": "- My Skills",
+        "home1": "",
+        "projectbody2": "My Projects",
+        "projectname1": "Socila Midea Website",
+        "projectname2": "Employee Management database",
+        "projectname3": "Simpl Working(React) Calculator",
+        "projectlink1": "Github Links",
+        "projectview": "VIEW"
+    },
+    "EXPERIENCE": {
+        "EXPERIENCE1": "EXPERIENCE",
+        "EXPERIENCE2": "I worked as a front-end developer intern at A2SV(Eskalate).",
+        "EXPERIENCE3": "WEB DEVELOPER",
+        "EXPERIENCE4": "STUDENT UNION COUNCIL ADDIS ABABA SCIENCE AND TECHNOLOGY UNIVERSITY",
+        "EXPERIENCE5": "CODE COACH"
+
+    }
+  }

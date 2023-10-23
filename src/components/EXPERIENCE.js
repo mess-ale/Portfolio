@@ -22,7 +22,7 @@ const EXPERIENCE = () => {
 
   return (
     <>
-      <Stack m={16} p={!isMobile ? 12 : 6} spacing={!isMobile ? 8 : 4} sx={{ boxShadow: '0px 2px 10px 1px rgba(71, 71, 71, 0.51)', borderRadius: 2, }} >
+      <Stack m={!isMobile ? 16 : 6} p={!isMobile ? 12 : 6} spacing={!isMobile ? 8 : 4} sx={{ boxShadow: '0px 2px 10px 1px rgba(71, 71, 71, 0.51)', borderRadius: 2, }} >
         <Typography variant={!isMobile ? 'h4' : 'h5'} style={{ width: '100%' }}>
           <Divider width={22}>
             {t("EXPERIENCE.EXPERIENCE1")}

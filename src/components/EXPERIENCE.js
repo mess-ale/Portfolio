@@ -33,7 +33,7 @@ const EXPERIENCE = () => {
               <ListItemIcon>
                 <MdKeyboardArrowRight />
               </ListItemIcon>
-              <Typography variant={!isMobile ? 'h6' : 'h7'}>
+              <Typography variant={!isMobile ? 'h6' : 'h8'}>
                 {t("EXPERIENCE.EXPERIENCE2")}
               </Typography>
           </ListItem>
@@ -41,7 +41,7 @@ const EXPERIENCE = () => {
               <ListItemIcon>
                 <MdKeyboardArrowRight />
               </ListItemIcon>
-              <Typography variant={!isMobile ? 'h6' : 'h7'}>
+              <Typography variant={!isMobile ? 'h6' : 'h8'}>
                 {t("EXPERIENCE.EXPERIENCE3")}
               </Typography>
           </ListItem>
@@ -49,7 +49,7 @@ const EXPERIENCE = () => {
               <ListItemIcon>
                 <MdKeyboardArrowRight />
               </ListItemIcon>
-              <Typography variant={!isMobile ? 'h6' : 'h7'}>
+              <Typography variant={!isMobile ? 'h6' : 'h8'}>
                 {t("EXPERIENCE.EXPERIENCE4")}
               </Typography>
           </ListItem>
@@ -57,7 +57,7 @@ const EXPERIENCE = () => {
               <ListItemIcon>
                 <MdKeyboardArrowRight />
               </ListItemIcon>
-              <Typography variant={!isMobile ? 'h6' : 'h7'}>
+              <Typography variant={!isMobile ? 'h6' : 'h8'}>
                 {t("EXPERIENCE.EXPERIENCE5")}
               </Typography>
           </ListItem>

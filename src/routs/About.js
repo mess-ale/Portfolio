@@ -22,9 +22,9 @@ const About = () => {
   }, []);
 
   return (
-    <Stack sx={{ height: '105vh' }}>
+    <Stack>
       <Header />
-      <Stack>
+      <Stack sx={{ paddingBottom: !isMobile ? 18 : 9,}}>
         <Stack p={!isMobile ? 3 : 2} spacing={2} sx={{ paddingTop: !isMobile ? 20 : 10, paddingBottom: !isMobile ? 24 : 12, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <Typography variant={!isMobile ? 'h2' : 'h3'} style={{ fontWeight: 'bold', color: '#90e0ef' }}>
             {t("about.abouthead")}

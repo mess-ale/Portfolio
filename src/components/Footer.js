@@ -22,7 +22,7 @@ const Footer = () => {
 
   return (
     <>
-      <Stack p={!isMobile ? 10: 7} sx={{ backgroundColor: '#20a4f3', height: '60vh' }}>
+      <Stack p={!isMobile ? 10: 5} sx={{ backgroundColor: '#20a4f3', height: '60vh' }}>
         <Stack spacing={!isMobile ? 1: 4} direction={!isMobile ? 'row' : 'column'} sx={{ justifyContent: 'space-between', }}>
           <Stack spacing={!isMobile ? 8 : 2 }>
             <Stack direction={'row'} spacing={3}>

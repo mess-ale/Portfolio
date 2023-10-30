@@ -112,7 +112,7 @@ const Footer = () => {
             >
               <FaGithub size={33} />
             </Button>
-            <Button target="_blank" style={{ color: "#051923" }}>
+            <Button href="https://www.facebook.com/chris.alamnah/" target="_blank" style={{ color: "#051923" }}>
               <FaFacebook size={33} />
             </Button>
           </Stack>

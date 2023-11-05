@@ -56,7 +56,7 @@ const Home = () => {
               style={
                 !isMobile
                   ? { minWidth: "100%", height: "549px" }
-                  : { width: "100%", height: "344px" }
+                  : { width: "100%", height: "544px" }
               }
             />
           </Stack>
@@ -217,7 +217,12 @@ const Home = () => {
         <Stack
           p={!isMobile ? 19 : 10}
           spacing={!isMobile ? 8 : 5}
-          sx={{ paddingBottom: !isMobile ? 30 : 15, display: 'flex', justifyContent: 'center', alignItems: 'center' }}
+          sx={{
+            paddingBottom: !isMobile ? 30 : 15,
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
         >
           <Typography
             variant={!isMobile ? "h5" : "h6"}

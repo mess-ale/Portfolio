@@ -73,10 +73,11 @@
     },
     "EXPERIENCE": {
         "EXPERIENCE1": "EXPERIENCE",
-        "EXPERIENCE2": "I worked as a front-end developer intern at A2SV(Eskalate).",
-        "EXPERIENCE3": "WEB DEVELOPER",
-        "EXPERIENCE4": "STUDENT UNION COUNCIL ADDIS ABABA SCIENCE AND TECHNOLOGY UNIVERSITY",
-        "EXPERIENCE5": "CODE COACH"
-
+        "EXPERIENCE2": "Eskalate(A2SV)",
+        "EXPERIENCE3": "FRONT END WEB DEVELOPER",
+        "EXPERIENCE4": "As a web developer intern at A2SV, I gained valuable experience in building and maintaining responsive websites and web applications. I learned about HTML, CSS, JavaScript, and popular web development frameworks like React and Redux. I also developed my skills in problem-solving, critical thinking, and teamwork.",
+        "EXPERIENCE5": "Jul 2023 - Oct 2023",
+        "EXPERIENCE6": "3 month",
+        "EXPERIENCE7": "Front-end web development"
     }
   }

@@ -1,14 +1,7 @@
-import {
-  Divider,
-  List,
-  ListItem,
-  ListItemIcon,
-  Stack,
-  Typography,
-} from "@mui/material";
+import { Divider, Stack, Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { MdKeyboardArrowRight } from "react-icons/md";
+import "bootstrap/dist/css/bootstrap.css";
 
 const EXPERIENCE = () => {
   const { t } = useTranslation("translation");
@@ -29,53 +22,72 @@ const EXPERIENCE = () => {
 
   return (
     <>
-      <Stack
-        m={!isMobile ? 16 : 6}
-        p={!isMobile ? 12 : 6}
-        spacing={!isMobile ? 8 : 4}
-        sx={{
+      <div
+        className="container"
+        style={{
           boxShadow: "0px 2px 10px 1px rgba(71, 71, 71, 0.51)",
-          borderRadius: 2,
+          borderRadius: 12,
+          margin: 24,
         }}
       >
-        <Typography variant={!isMobile ? "h4" : "h5"} style={{ width: "100%" }}>
-          <Divider width={22}>{t("EXPERIENCE.EXPERIENCE1")}</Divider>
-        </Typography>
-        <List>
-          <ListItem>
-            <ListItemIcon>
-              <MdKeyboardArrowRight />
-            </ListItemIcon>
-            <Typography variant={!isMobile ? "h6" : "h8"}>
-              {t("EXPERIENCE.EXPERIENCE2")}
+        <div className="row">
+          <div className="col" style={{ padding: 42 }}>
+            <Typography
+              variant={!isMobile ? "h4" : "h5"}
+              style={{ width: "100%" }}
+            >
+              <Divider width={22}>{t("EXPERIENCE.EXPERIENCE1")}</Divider>
             </Typography>
-          </ListItem>
-          <ListItem>
-            <ListItemIcon>
-              <MdKeyboardArrowRight />
-            </ListItemIcon>
-            <Typography variant={!isMobile ? "h6" : "h8"}>
-              {t("EXPERIENCE.EXPERIENCE3")}
-            </Typography>
-          </ListItem>
-          <ListItem>
-            <ListItemIcon>
-              <MdKeyboardArrowRight />
-            </ListItemIcon>
-            <Typography variant={!isMobile ? "h6" : "h8"}>
-              {t("EXPERIENCE.EXPERIENCE4")}
-            </Typography>
-          </ListItem>
-          <ListItem>
-            <ListItemIcon>
-              <MdKeyboardArrowRight />
-            </ListItemIcon>
-            <Typography variant={!isMobile ? "h6" : "h8"}>
-              {t("EXPERIENCE.EXPERIENCE5")}
-            </Typography>
-          </ListItem>
-        </List>
-      </Stack>
+          </div>
+        </div>
+
+        <div className="row" style={{ padding: 42, paddingBottom: 100 }}>
+          <div className="col">
+            <Stack>
+              <Stack>
+                <Typography variant='h6'>
+                  {t("EXPERIENCE.EXPERIENCE5")}
+                </Typography>
+              </Stack>
+              <Stack>
+                <Typography variant='h6'>
+                  {t("EXPERIENCE.EXPERIENCE6")}
+                </Typography>
+              </Stack>
+              <Stack>
+                <Typography variant='h6'>
+                  {t("EXPERIENCE.EXPERIENCE7")}
+                </Typography>
+              </Stack>
+              <Stack>
+                <Typography variant='h6'>
+                  {t("EXPERIENCE.EXPERIENCE2")}
+                </Typography>
+              </Stack>
+            </Stack>
+          </div>
+
+          <div className="col">
+            <Stack>
+              <Stack>
+                <Typography variant='h5'>
+                  {t("EXPERIENCE.EXPERIENCE2")}
+                </Typography>
+              </Stack>
+              <Stack>
+                <Typography variant='h6'>
+                  {t("EXPERIENCE.EXPERIENCE3")}
+                </Typography>
+              </Stack>
+              <Stack>
+                <Typography variant='subtitle2'>
+                  {t("EXPERIENCE.EXPERIENCE4")}
+                </Typography>
+              </Stack>
+            </Stack>
+          </div>
+        </div>
+      </div>
     </>
   );
 };

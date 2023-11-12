@@ -63,7 +63,7 @@ const Home = () => {
                   variant="h2"
                   style={{
                     color: "#2ec4b6",
-                    display: 'flex',
+                    display: "flex",
                     justifyContent: "center",
                     alignItems: "center",
                     fontWeight: "bold",
@@ -205,8 +205,17 @@ const Home = () => {
             </Stack>
           </Stack>
         </Stack>
-
-        <EXPERIENCE />
+        <Stack
+          sx={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            paddingBottom: 16,
+            paddingTop: 10,
+          }}
+        >
+          <EXPERIENCE />
+        </Stack>
 
         <div className="container" style={{ padding: 20 }}>
           <Typography

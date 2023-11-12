@@ -72,9 +72,11 @@
     },
     "EXPERIENCE": {
         "EXPERIENCE1": "ልምድ",
-        "EXPERIENCE2": "በA2SV(Eskalate) front-end ገንቢ ተለማማጅ ሆኜ ሠርቻለሁ.",
-        "EXPERIENCE3": "የድር ገንቢ",
-        "EXPERIENCE4": "የተማሪዎች ህብረት ምክር ቤት አዲስ አበባ ሳይንስና ቴክኖሎጂ ዩኒቨርስቲ",
-        "EXPERIENCE5": "ኮድ አሰልጣኝ"
+        "EXPERIENCE2": "Eskalate(A2SV)",
+        "EXPERIENCE3": "የፊት መጨረሻ የድር ገንቢ",
+        "EXPERIENCE4": "በA2SV እንደ የድር ገንቢ ተለማማጅ፣ ምላሽ ሰጪ ድረ-ገጾችን እና የድር መተግበሪያዎችን በመገንባት እና በማቆየት ጠቃሚ ልምድ አግኝቻለሁ። ስለ HTML፣ CSS፣ JavaScript፣ እና እንደ React እና Redux ያሉ ታዋቂ የድር ልማት ማዕቀፎችን ተምሬያለሁ። በችግር አፈታት፣ በሂሳዊ አስተሳሰብ እና በቡድን በመስራት ክህሎቶቼን አዳብሬያለሁ።",
+        "EXPERIENCE5": "ጁል 2023 - ኦክቶበር 2023",
+        "EXPERIENCE6": "3 ወር",
+        "EXPERIENCE7": "የፊት-መጨረሻ የድር ልማት"
     }
   }

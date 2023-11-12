@@ -51,12 +51,12 @@ const Header = () => {
         >
           {click ? (
             <FaTimes
-              size={20}
+              size={30}
               style={{ color: "#000", margin: 5, padding: 5 }}
             />
           ) : (
             <FaBars
-              size={20}
+              size={30}
               style={{ color: "#000", margin: 5, padding: 5 }}
             />
           )}
@@ -71,7 +71,7 @@ const Header = () => {
                   justifyContent: "space-between",
                   backgroundColor: "rgba(94, 80, 63, 1)",
                   position: "fixed",
-                  width: "98%",
+                  width: "100%",
                   zIndex: 9999,
                   fontWeight: "bold",
                 }

@@ -12,6 +12,7 @@ import { IoLogoPython, IoLogoNodejs, IoLogoJavascript } from "react-icons/io";
 import { MdStorage, MdChat } from "react-icons/md";
 import { useTranslation } from "react-i18next";
 import EXPERIENCE from "../components/EXPERIENCE";
+import "bootstrap/dist/css/bootstrap.css";
 
 const Home = () => {
   const { t } = useTranslation("translation");
@@ -34,71 +35,64 @@ const Home = () => {
     <>
       <Stack>
         <Header />
-        <Stack
-          direction={!isMobile ? "row" : "column"}
-          sx={{
-            paddingBottom: !isMobile ? 13 : 7,
-            paddingTop: !isMobile ? 13 : 7,
-          }}
-        >
-          <Stack
-            sx={
-              isMobile && {
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-              }
-            }
-          >
-            <img
-              src={imgs}
-              alt="myphoto"
-              style={
-                !isMobile
-                  ? { minWidth: "100%", height: "549px" }
-                  : { width: "100%", height: "544px" }
-              }
-            />
-          </Stack>
-          <Stack
-            p={!isMobile ? 16 : 8}
-            sx={{ paddingTop: !isMobile ? 14 : 7 }}
-            spacing={!isMobile ? 6 : 3}
-          >
-            <Typography
-              variant={!isMobile ? "h3" : "h4"}
+        <div className="container">
+          <div className="row">
+            <div
+              className="col-lg-4"
               style={{
                 display: "flex",
-                color: "#2ec4b6",
                 justifyContent: "center",
                 alignItems: "center",
-                fontWeight: "bold",
+                height: "100vh",
               }}
             >
-              {t("home.about")}
-            </Typography>
-            <Stack spacing={2}>
-              <Typography
-                variant={!isMobile ? "h6" : "h7"}
-                style={{ textAlign: "justify" }}
-              >
-                {t("home.aboutbody1")}
-              </Typography>
-              <Typography
-                variant={!isMobile ? "h6" : "h7"}
-                style={{ textAlign: "justify" }}
-              >
-                {t("home.aboutbody2")}
-              </Typography>
-              <Typography
-                variant={!isMobile ? "h6" : "h7"}
-                style={{ textAlign: "justify" }}
-              >
-                {t("home.aboutbody3")}
-              </Typography>
-            </Stack>
-          </Stack>
-        </Stack>
+              <img src={imgs} alt="myphoto" />
+            </div>
+
+            <div
+              className="col-lg-8"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                height: "100vh",
+              }}
+            >
+              <Stack spacing={2}>
+                <Typography
+                  variant="h2"
+                  style={{
+                    color: "#2ec4b6",
+                    display: 'flex',
+                    justifyContent: "center",
+                    alignItems: "center",
+                    fontWeight: "bold",
+                  }}
+                >
+                  {t("home.about")}
+                </Typography>
+                <Typography
+                  variant={!isMobile ? "h6" : "h7"}
+                  style={{ textAlign: "justify" }}
+                >
+                  {t("home.aboutbody1")}
+                </Typography>
+                <Typography
+                  variant={!isMobile ? "h6" : "h7"}
+                  style={{ textAlign: "justify" }}
+                >
+                  {t("home.aboutbody2")}
+                </Typography>
+                <Typography
+                  variant={!isMobile ? "h6" : "h7"}
+                  style={{ textAlign: "justify" }}
+                >
+                  {t("home.aboutbody3")}
+                </Typography>
+              </Stack>
+            </div>
+          </div>
+        </div>
 
         <Stack
           direction={"row"}
@@ -214,16 +208,7 @@ const Home = () => {
 
         <EXPERIENCE />
 
-        <Stack
-          p={!isMobile ? 19 : 10}
-          spacing={!isMobile ? 8 : 5}
-          sx={{
-            paddingBottom: !isMobile ? 30 : 15,
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
+        <div className="container" style={{ padding: 20 }}>
           <Typography
             variant={!isMobile ? "h5" : "h6"}
             sx={{
@@ -234,12 +219,15 @@ const Home = () => {
           >
             {t("home.projectbody2")}
           </Typography>
-          <Stack direction={!isMobile ? "row" : "column"} spacing={6}>
-            <Stack
-              sx={{
+          <div className="row" style={{ paddingTop: 60, paddingBottom: 150 }}>
+            <div
+              className="col"
+              style={{
                 boxShadow: "0px 2px 10px 1px rgba(71, 71, 71, 0.51)",
-                borderRadius: 2,
-                padding: 3,
+                borderRadius: 7,
+                padding: 20,
+                margin: 21,
+                minWidth: "200px",
               }}
             >
               <img
@@ -284,12 +272,15 @@ const Home = () => {
                   {t("home.projectview")}
                 </Button>
               </Stack>
-            </Stack>
-            <Stack
-              sx={{
+            </div>
+            <div
+              className="col"
+              style={{
                 boxShadow: "0px 2px 10px 1px rgba(71, 71, 71, 0.51)",
-                borderRadius: 2,
-                padding: 3,
+                borderRadius: 7,
+                padding: 20,
+                margin: 21,
+                minWidth: "200px",
               }}
             >
               <img
@@ -334,12 +325,15 @@ const Home = () => {
                   {t("home.projectview")}
                 </Button>
               </Stack>
-            </Stack>
-            <Stack
-              sx={{
+            </div>
+            <div
+              className="col"
+              style={{
                 boxShadow: "0px 2px 10px 1px rgba(71, 71, 71, 0.51)",
-                borderRadius: 2,
-                padding: 3,
+                borderRadius: 7,
+                padding: 20,
+                margin: 21,
+                minWidth: "200px",
               }}
             >
               <img
@@ -384,9 +378,9 @@ const Home = () => {
                   {t("home.projectview")}
                 </Button>
               </Stack>
-            </Stack>
-          </Stack>
-        </Stack>
+            </div>
+          </div>
+        </div>
         <Footer />
       </Stack>
     </>

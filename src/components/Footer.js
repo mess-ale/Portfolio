@@ -31,7 +31,7 @@ const Footer = () => {
     <>
       <Stack
         p={!isMobile ? 10 : 5}
-        sx={{ backgroundColor: "#20a4f3", height: "60vh" }}
+        sx={{ backgroundColor: "#20a4f3", height: "80vh" }}
       >
         <Stack
           spacing={!isMobile ? 1 : 4}

@@ -33,7 +33,7 @@ const Home = () => {
 
   return (
     <>
-      <Stack>
+      <Stack sx={{ backgroundColor: '#00f5d4'}}>
         <Header />
         <div className="container">
           <div className="row">
@@ -46,7 +46,7 @@ const Home = () => {
                 height: "100vh",
               }}
             >
-              <img src={imgs} alt="myphoto" />
+              <img src={imgs} alt="myphoto" className="img-fluid" />
             </div>
 
             <div
@@ -101,6 +101,7 @@ const Home = () => {
           sx={{
             boxShadow: "0px 2px 10px 1px rgba(71, 71, 71, 0.51)",
             borderRadius: 2,
+            backgroundColor: "#ffafcc"
           }}
         >
           <Stack>
@@ -237,6 +238,7 @@ const Home = () => {
                 padding: 20,
                 margin: 21,
                 minWidth: "200px",
+                backgroundColor: '#ffd6ff',
               }}
             >
               <img
@@ -290,6 +292,7 @@ const Home = () => {
                 padding: 20,
                 margin: 21,
                 minWidth: "200px",
+                backgroundColor: '#ffd6ff',
               }}
             >
               <img
@@ -343,6 +346,7 @@ const Home = () => {
                 padding: 20,
                 margin: 21,
                 minWidth: "200px",
+                backgroundColor: '#ffd6ff',
               }}
             >
               <img

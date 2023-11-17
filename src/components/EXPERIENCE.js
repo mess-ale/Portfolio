@@ -28,20 +28,21 @@ const EXPERIENCE = () => {
           boxShadow: "0px 2px 10px 1px rgba(71, 71, 71, 0.51)",
           borderRadius: 12,
           margin: 24,
+          backgroundColor: '#ff006e'
         }}
       >
         <div className="row">
           <div className="col" style={{ padding: 42 }}>
             <Typography
               variant={!isMobile ? "h4" : "h5"}
-              style={{ width: "100%" }}
+              style={{ width: "100%", fontWeight: 'bold' }}
             >
               <Divider width={22}>{t("EXPERIENCE.EXPERIENCE1")}</Divider>
             </Typography>
           </div>
         </div>
 
-        <div className="row" style={{ padding: 42, paddingBottom: 100 }}>
+        <div className="row" style={{ padding: 42, paddingBottom: 100,  }}>
           <div className="col">
             <Stack>
               <Stack>
@@ -70,12 +71,12 @@ const EXPERIENCE = () => {
           <div className="col">
             <Stack>
               <Stack>
-                <Typography variant='h5'>
+                <Typography variant='h5' style={{ fontWeight: 'bold'}}>
                   {t("EXPERIENCE.EXPERIENCE2")}
                 </Typography>
               </Stack>
               <Stack>
-                <Typography variant='h6'>
+                <Typography variant='h7' style={{ fontWeight: 'bold'}}>
                   {t("EXPERIENCE.EXPERIENCE3")}
                 </Typography>
               </Stack>
